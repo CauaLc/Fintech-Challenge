@@ -1,0 +1,72 @@
+body{
+    background-color: #5c636a ;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0; 
+}
+
+.btn-secondary {
+    background-color: #6C757D;
+    border: none;
+    transition: all 0.3s ease-in-out; 
+}
+
+.hover-icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-icon:hover {
+    transform: scale(1.1);
+  }
+
+.click {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+}
+
+.click:hover {
+    transform: scale(1.02); 
+    transition: all 0.3s ease-in-out; 
+}
+
+.btn-secondary:hover {
+    background-color: #6C757D; 
+    border: none;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out; 
+}
+
+.hover{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+}
+.hover:hover {
+    background-color: #5c636a; 
+    transform: scale(1.05); 
+    transition: all 0.3s ease-in-out; 
+}
+
+
+.card-title {
+    color: #333; 
+}
+
+.card-text {
+    color: black; 
+}
+
+.btn-primary {
+    background-color: #6C757D; 
+    border: none;
+    transition: all 0.3s ease-in-out; 
+}
+
+.btn-primary:hover{
+    background-color: #5c636a ;
+    transform: scale(1.05); 
+    transition: all 0.3s ease-in-out; 
+}
+
